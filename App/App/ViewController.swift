@@ -16,13 +16,19 @@ enum AnchorName: String {
 final class ViewController: UIViewController {
     @IBOutlet var arView: ARView!
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        arView.session.delegate = self
+    }
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
         arView.session.delegate = self
         
         setupARView()
-        arView.addGestureRecognizer(UIGestureRecognizer(target: self, action: #selector(handleTap(recognizer:))))
+        arView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleTap(recognizer:))))
     }
     
     @objc private func handleTap(recognizer: UITapGestureRecognizer) {
@@ -37,7 +43,7 @@ final class ViewController: UIViewController {
             let alert = UIAlertController(title: "Move your camera", message: .none, preferredStyle: .alert)
             let action = UIAlertAction(title: "Ok", style: .cancel)
             alert.addAction(action)
-            self.present(alert, animated: true)
+//            self.present(alert, animated: true)
         }
     }
     
