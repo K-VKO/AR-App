@@ -18,8 +18,6 @@ final class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        arView.session.delegate = self
     }
     
     override func viewDidAppear(_ animated: Bool) {
