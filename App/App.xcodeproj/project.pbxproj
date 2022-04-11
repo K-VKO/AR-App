@@ -16,6 +16,7 @@
 		FC423B29280406520044C839 /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC423B28280406520044C839 /* AppTests.swift */; };
 		FC423B33280406520044C839 /* AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC423B32280406520044C839 /* AppUITests.swift */; };
 		FC423B35280406520044C839 /* AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC423B34280406520044C839 /* AppUITestsLaunchTests.swift */; };
+		FCBBB72A28041A5E00982A0F /* rocky.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FCBBB72928041A5E00982A0F /* rocky.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		FC423B2E280406520044C839 /* AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC423B32280406520044C839 /* AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUITests.swift; sourceTree = "<group>"; };
 		FC423B34280406520044C839 /* AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCBBB72928041A5E00982A0F /* rocky.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = rocky.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				FC423B12280406500044C839 /* AppDelegate.swift */,
 				FC423B14280406500044C839 /* ViewController.swift */,
 				FC423B16280406500044C839 /* Experience.rcproject */,
+				FCBBB72928041A5E00982A0F /* rocky.usdz */,
 				FC423B18280406500044C839 /* Main.storyboard */,
 				FC423B1B280406510044C839 /* Assets.xcassets */,
 				FC423B1D280406510044C839 /* LaunchScreen.storyboard */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC423B1F280406510044C839 /* LaunchScreen.storyboard in Resources */,
+				FCBBB72A28041A5E00982A0F /* rocky.usdz in Resources */,
 				FC423B1C280406510044C839 /* Assets.xcassets in Resources */,
 				FC423B1A280406500044C839 /* Main.storyboard in Resources */,
 			);
